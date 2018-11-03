@@ -1,4 +1,3 @@
 package com.thehecklers.fsrkotlincoffeeclient
 
-class Coffee {
-}
+data class Coffee(val id: String, val name: String)
